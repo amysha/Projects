@@ -1,0 +1,20 @@
+add_user two a
+add_group one
+add_group two
+add_user one a
+add_user one b
+add_user one c
+list_groups
+add_group three
+user_balance c c
+user_balance two c
+list_users one
+list_users two
+add_xct one a 789042
+add_xct one c 8904.092092
+add_xct one a 0.8
+list_users one
+user_balance one a
+add_xct one b 890
+list_users one
+quit

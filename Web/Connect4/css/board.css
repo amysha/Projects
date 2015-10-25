@@ -1,0 +1,54 @@
+.empty {
+	background: white;
+	margin: 2px;
+	width: 25px;
+	height: 25px;
+	border: solid 1px black;
+}
+
+.col {
+	margin: 0px;
+	width: 31px;
+	height: 175px;
+	float: left;
+}
+
+#game {
+	float: left;
+	margin: 2px;
+	margin-right: 10px;
+	padding: 2px;
+	background: blue;
+}
+
+#gameInfo {
+	height: 100px;
+}
+
+[player = "1"] {
+	background: red;
+	color:red;
+}
+
+[player = "2"] {
+	background: yellow;
+	color:yellow;
+}
+
+[p = "1"] {
+	background:black;
+	color:red;
+}
+
+[p = "2"] {
+	background:black;
+	color:yellow;
+}
+
+#turn {
+	color: red; 
+}
+
+#status {
+	margin-bottom: 20px;
+}
